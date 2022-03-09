@@ -3,6 +3,7 @@
 # Hello React Frontend
 
 > Pull Request Link: https://github.com/od-c0d3r/hello-react-front-end/pull/1
+> 
 > Project with a React front-end and Rails back-end and connect them to display a random message. 
 
 ## Built With
