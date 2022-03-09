@@ -7,13 +7,11 @@ import store from "../redux/store";
 
 const App = () => {
   return (
-    <Provider store={store}>
       <BrowserRouter>
         <Routes>
           <Route path="greeting" element={<Greeting />} />
         </Routes>
       </BrowserRouter>
-    </Provider>
   );
 }
 
