@@ -1,6 +1,6 @@
 import React, { useEffect } from "react"
 import { useDispatch, useSelector } from "react-redux";
-import { fetchMessage } from "../state/message/messageSlice";
+import { fetchMessage } from "../redux/message/messageSlice";
 
 const Greeting = () => {
   const dispatch = useDispatch();
@@ -8,7 +8,7 @@ const Greeting = () => {
 
   return (
     <>
-      <div class="d-flex justify-content-center">
+      <div className="d-flex justify-content-center">
         <button onClick={() => dispatch(fetchMessage())}>Show message</button>
       </div>
       <br />
