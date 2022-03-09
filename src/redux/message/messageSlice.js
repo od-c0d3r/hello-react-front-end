@@ -3,8 +3,8 @@ import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 export const fetchMessage = createAsyncThunk(
     'message/fetchMessage',
     async (thunkAPI) => {
-        // Relplace it with your localhost rails server host url
-        const response = await fetch('http://localhost:3001/api/greeting'); 
+        // Relplace it with your localhost rails server url endpoint
+        const response = await fetch('LOCALHOST/api/greeting'); 
         return response.json();
     }
 )

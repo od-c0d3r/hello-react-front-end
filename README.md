@@ -1,44 +1,64 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-## Available Scripts
+# Hello React Frontend
+
+> Project with a React front-end and Rails back-end and connect them to display a random message. 
+
+## Built With
+
+- React, Redux, Routers ~ _Javascript Libraries_ 
+
+## Getting Started
+
+To get a local copy up and running follow these simple example steps
+
+- From your terminal enter in sequence
+  - `git clone https://github.com/od-c0d3r/hello-react-front-end`
+  - `code hello-react-front-end`
+  - Locate to `./src/redux/message/messageSlice.js` and put your rails server URL and PORT following with the end-point `/api/greeting` \
+  For example : `http://localhost:3000/api/greeting`
+
+### Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+- #### `npm install`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  - Install the project dependencies.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- #### `npm start`
 
-### `npm test`
+  - Runs the app in the development mode.\
+Open `http://localhost:PORT` to view it in your browser.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  - The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### `npm run build`
+## Coders
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+👤 **Omar Rashad**
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- GitHub: [@od-c0d3r](https://github.com/githubhandle)
+- LinkedIn: [@omarrashad](https://linkedin.com/in/omarrashad)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🤝 Contributing
 
-### `npm run eject`
+Contributions, issues, and feature requests are welcome!
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Feel free to check the [issues page](../../issues/).
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Show your support
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Give a ⭐️ if you like this project!
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Acknowledgments
 
-## Learn More
+-  [simplecss](https://simplecss.org/) ~ for using their simple css.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is [MIT](./MIT.md) licensed.
+
+## 📝 Todo
+
+- Spinner for pending state
